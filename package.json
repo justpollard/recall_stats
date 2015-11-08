@@ -1,0 +1,20 @@
+{
+  "name": "recall_stats",
+  "repository": 
+    { "type" : "git"
+    , "url" : "https://github.com/justpollard/recall_stats.git"
+    },
+  "version": "1.0.0",
+  "description": "A RESTful service to query statistics for recalls.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin Pollard",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.4"
+  }
+}
